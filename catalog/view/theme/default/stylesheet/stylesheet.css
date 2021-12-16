@@ -988,7 +988,7 @@ text-align:center
 .call{
 	display: grid;
 	 grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px 100px;
+    grid-gap: 20px 20px;
 }
 
 .call input[type="text"]{
