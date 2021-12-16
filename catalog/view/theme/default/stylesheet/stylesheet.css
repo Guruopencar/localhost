@@ -1040,3 +1040,138 @@ color: #FFFFFF;
 justify-content: space-between;
 background:#000;
 }
+
+
+@media (max-width: 768px) {
+	.menu{display:none;}
+	
+	.left-header img{
+    max-height: 200px;
+}
+.header {
+	grid-template-columns: repeat(1, 1fr);
+}
+	
+	.callback {
+       margin: 0 auto;
+    margin-top: 30px;
+}
+
+.left-header {
+	text-align:center;
+    max-height: 200px;
+}
+
+.title-header {
+    text-align: center;
+    font-size: 35px;
+    line-height: 35px;
+    padding: 0 30px;
+	margin:0;
+}
+
+.subtitle-header {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+.btn-heade {
+    text-align: center;
+	margin:30px;
+}
+
+
+.btn-he{font-size:15px;}
+.info-header{
+	margin:0 15px;
+}
+.info-header div{
+	font-size:18px;
+	line-height:23px;
+}
+
+.all-preferens{
+	grid-template-columns:repeat(2, 1fr);
+	grid-gap:20px;
+	
+	margin:40px 15px 0 15px;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px 20px;
+    margin-top: 40px;
+}
+img{max-width:100%;}
+.info-whyme {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   
+}
+
+.call {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+
+.right-about {
+    margin: 0 15px;
+}
+.promo {
+    padding: 30px 0 30px 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px 20px;
+}
+
+.left-promo{max-height:200px; text-align:center;}
+.left-promo img{max-height:200px;}
+.title-promo{margin:0 15p; line-height:26px; font-size:22px;}
+.whyme, .bg-home, .bg-work{margin-top:40px;}
+.text-work {
+    margin: 0 15px;
+}
+.title-whyme{font-size:24xp; margin:35px;}
+.man {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px 20px;
+    margin-top: 40px;
+	margin-left:15px;
+	margin-right:15px;
+}
+.man .left-man{
+	margin-left:15px;
+	margin-right:15px;
+}
+.brn-callback{
+	padding: 21px 70px;
+	font-size:20px;
+}
+.bg-footer{
+	padding:20px;
+}
+
+.title-foote{
+	font-size:30px;
+	line-height:35px;
+	margin-bottom:20px;
+}
+.subtitle-foote{
+	font-size:26px;
+	line-height:30px;
+	margin-bottom:15px;
+}
+.text-foote{font-size:13px;}
+	.call input[type="text"]{margin:0; width:100%; padding:15px}
+	.call input[type="submit"]{width:100%; margin:0; padding:15px;}
+	
+	.bottom-footer {
+    text-align: center;
+    display: block;
+   
+}
+.bg-footer{margin-top:40px;}
+}
