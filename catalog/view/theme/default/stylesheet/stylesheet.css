@@ -992,6 +992,7 @@ text-align:center
 }
 
 .call input[type="text"]{
+	color:#fff;
 	background: #140702;
 border: 1px solid #136632;
 box-sizing: border-box;
