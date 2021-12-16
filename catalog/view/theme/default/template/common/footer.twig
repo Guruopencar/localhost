@@ -1,0 +1,43 @@
+<footer>
+<div class="bg-footer">
+  <div class="container">
+    <div class="row">
+		<div class="title-foote">THANOS дает мужскому организму все необходимые элементы для превосходной сексуальной активности в любом возрасте</div>
+		<div class="subtitle-foote">Возникли вопросы?</div>
+		<div class="text-foote">Оставьте свои данные и мы свяжемся с вами</div>
+		<div class="form-foote">
+			<form action="" id="call" class="call" >
+				<input type="text" name="name" class="inpt"  placeholder="Ваше имя" required />
+				<input type="text" name="email" class="inpt"  placeholder="Ваш номер" required />
+				<input type="submit"  class="bnt-send" value="Заказать звонок"  />
+				
+			
+			</form>
+		
+		</div>
+      </div>
+    </div>
+</div>
+	<div class="bg-bottom-footer">
+   <div class="container">
+    <div class="row">
+	<div class="bottom-footer">
+	<div class="left-footer">THANOS </div>
+	<div class="right-footer">{{ powered }}</div>
+	</div>
+    
+ </div>
+    </div>
+    </div>
+</footer>
+{% for style in styles %}
+<link href="{{ style.href }}" type="text/css" rel="{{ style.rel }}" media="{{ style.media }}" />
+{% endfor %}
+{% for script in scripts %}
+<script src="{{ script }}" type="text/javascript"></script>
+{% endfor %}
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+</body></html>
